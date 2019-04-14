@@ -9,7 +9,7 @@ def turn_count(board)
 end
 
 def current_player(count)
-  if count.even?
+  if count.even?==
     puts "It is X's turn"
   else
     puts "It is O's turn"
