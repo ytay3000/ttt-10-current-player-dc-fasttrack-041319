@@ -8,7 +8,8 @@ def turn_count(board)
   return count
 end
 
-def current_player(count)
+def current_player(board)
+  turn_count(board)
   if count.even?==
     puts "It is X's turn"
   else
