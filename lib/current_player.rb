@@ -13,4 +13,5 @@ def current_player(count)
     puts "It is X's turn"
   else
     puts "It is O's turn"
+  end
 end
